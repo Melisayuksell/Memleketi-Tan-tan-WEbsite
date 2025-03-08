@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: aquamarine;">
+    <label>Kullanıcı adı</label>
+    <input type="text" size="10"><br>
+    <label>Parola</label>
+    <input type="text" size="10"><br>
+    <button style="height: 50px;width: 60px;" onclick=kontrol()>Göder</button>
+    <script>
+        function kontrol()
+        {
+      login=document.getElementById("mylog").textContent
+      parola=document.getElementById("myspw").text.textContent
+      if(login=="ali"&& parola==1234)
+      alert("sisteme giriş yapılabilir")
+    else
+    alert("parola veya login hatalı")
+    </script>
+       }
+</body>
+</html>
